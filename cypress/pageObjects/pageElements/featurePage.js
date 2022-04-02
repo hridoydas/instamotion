@@ -2,8 +2,12 @@
 
 class featurePage{
 
+    get sidebarMenuIcon(){
+        // return cy.xpath("//div[@class='sc-cqpYsc feYebt']");
+        return cy.get('.kntpJz > .sc-kgoBCf');
+    }
     get featureMenu(){
-        return cy.xpath("(//a[@class='sc-cTjmhe dFksDh'])[3]");
+        return cy.get('.sc-dyGzUR > [href="/deine-vorteile/so-funktionierts"]');
     }
 
     get aceeptCookies(){
@@ -15,15 +19,16 @@ class featurePage{
     }
 
     get findFinancing(){
-        return cy.xpath("(//h3[@class='Headline__H3-sc-35neu2-2 emOag first-element'])[2]");
+        return cy.contains('Finde Deine Finanzierung');
     }
     
     get approvalWithoutStress(){
-        return cy.xpath("(//h3[@class='Headline__H3-sc-35neu2-2 emOag first-element'])[3]");
+        return cy.contains("Zulassung – ohne Stress")
+        // console.log(cy.get(':nth-child(3) > .sc-eNNmBn > .sc-eEieub > .sc-RbTVP > .ListWithDescription__Title-ul031b-4'));
     }
 
     get deliveryDoorstep(){
-        return cy.xpath("(//h3[@class='Headline__H3-sc-35neu2-2 emOag first-element'])[4]");
+        return cy.contains('Lieferung vor Deine Haustür');
     }
 
 }

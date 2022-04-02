@@ -18,25 +18,29 @@ class featurePageActions{
     get maximizeWindow(){
         return cy.viewport(1024, 768);
     }
+
+    get clickSidebarMenuIcon(){
+        return featurePage.sidebarMenuIcon.click();
+    }
     
     get clickFeatureMenu(){
         return featurePage.featureMenu.click();
     }
 
     get verifyFeaturePageText(){
-        return featurePage.featurePageText.getText();
+        return featurePage.featurePageText;
     }
 
     get findFinancing(){
-        featurePage.findFinancing.getText();
+        return featurePage.findFinancing;
     }
 
     get approvalWithoutStress(){
-        featurePage.approvalWithoutStress.getText();
+        return featurePage.approvalWithoutStress;
     }
 
     get deliveryDoorstep(){
-        featurePage.deliveryDoorstep.getText();
+        return featurePage.deliveryDoorstep;
     }
 
 }
