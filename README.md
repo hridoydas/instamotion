@@ -1,7 +1,10 @@
 # Instamotion assignment
 
-Task 01: Added in 3_critical_features folder ()
-Task 02: Can get in master branch
+## Task #1
+Added in 3_critical_features folder (https://github.com/hridoydas/instamotion/blob/master/3_critical_features/instamotion_marked_cricitical_features_.png)
+
+## Task #2
+Can get in master branch
 
 
 ## Run Locally
