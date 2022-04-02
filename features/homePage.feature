@@ -1,3 +1,4 @@
+@TestCases
 Feature: Home Page 
 
     Get homepage

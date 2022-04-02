@@ -4,7 +4,7 @@ const HomePage = require("../pageElements/HomePage")
 class HomePageActions{
 
     get navigateToUrl(){
-        return cy.visit("https://www.instamotion.com/")
+        return cy.visit("/");
     }
 
     get validateTitile(){
