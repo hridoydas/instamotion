@@ -1,0 +1,36 @@
+// var { Given, When, Then } = require('çucumber');
+// const featurePageActions = require("../../pageObjects/pageActions/featurePageActions");
+
+// class Feature_StepDef {
+
+//   @Given('user navigate to instamotion url', function navigate() {
+//     return featurePageActions.navigateToUrl;
+//   })
+
+//   @When('user verify the title', function validateTitile() {
+//     return featurePageActions.validateTitile.should('have.text', 'Geprüfte Gebrauchtwagen mit Garantie | instamotion');
+//   })
+
+
+//   @Then('user click features page', function clickFeatureMenu() {
+//     return featurePageActions.clickFeatureMenu;
+//   })
+
+//   @Then('user verify the the feature page', function verifyFeaturePageText() {
+//     return featurePageActions.verifyFeaturePageText.should('have.text', 'So funktioniert instamotion');
+//   })
+
+//   @Then('verify Find your financing text', function findFinancing() {
+//     return featurePageActions.findFinancing.should('have.text', 'Finde Deine Finanzierung');
+//   })
+
+//   @Then('verify Approval - without stress text', function approvalWithoutStress() {
+//     return featurePageActions.approvalWithoutStress.should('have.text', 'SZulassung – ohne Stress');
+//   })
+
+//   @Then('verify Delivery to your doorstep text', function deliveryDoorstep() {
+//     return featurePageActions.deliveryDoorstep.should('have.text', 'Lieferung vor Deine Haustür');
+//   })
+// }
+
+// module.exports = new Feature_StepDef();

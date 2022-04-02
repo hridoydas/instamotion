@@ -5,21 +5,24 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cucumber": "./node_modules/.bin/cucumber-js features",
+    "cucumber": "./node_modules/.bin/cucumber-js ./cypress/integration/featureTest.feature",
     "gherkin": "./node_modules/.bin/cucumber-js ./features/testCases.feature"
   },
   "keywords": [],
   "author": "hridoy_das",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^9.5.2",
-    "cypress-xpath": "^1.6.0",
-    "cypress-cucumber-preprocessor": "^4.3.1"
+    "cypress": "^9.5.3",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^1.6.0"
   },
   "dependencies": {
     "@4tw/cypress-drag-drop": "^2.1.0",
     "cucumber": "^7.0.0-rc.0",
     "cypress-downloadfile": "^1.2.1",
     "cypress-file-upload": "^5.0.8"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
